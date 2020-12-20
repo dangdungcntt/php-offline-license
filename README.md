@@ -15,13 +15,19 @@ You can install the package via composer:
 composer require nddcoder/php-offline-license
 ```
 
-## Usage
+## Basic Usage
 
 ```php
 $phpOfflineLicense = new Nddcoder\PhpOfflineLicense::create('secret');
 $license = $phpOfflineLicense->generate(); //uuid like string
 $licenseInfo = $phpOfflineLicense->getInfo($license); //LicenseInfo object
 $isValid = $phpOfflineLicense->validate($license);//true or false
+```
+
+### Generate license with expire time
+
+```php
+$phpOfflineLicense->generate(time() + 86400); //license expire time after 1 day
 ```
 
 ## Testing
