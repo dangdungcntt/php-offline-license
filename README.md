@@ -1,7 +1,7 @@
 # 
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/nddcoder/php-offline-license.svg?style=flat-square)](https://packagist.org/packages/nddcoder/php-offline-license)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/nddcoder/php-offline-license/run-tests?label=tests)](https://github.com/nddcoder/php-offline-license/actions?query=workflow%3ATests+branch%3Amaster)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/dangdungcntt/php-offline-license/run-tests?label=tests)](https://github.com/nddcoder/php-offline-license/actions?query=workflow%3ATests+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/nddcoder/php-offline-license.svg?style=flat-square)](https://packagist.org/packages/nddcoder/php-offline-license)
 
 
