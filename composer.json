@@ -1,17 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "nddcoder/php-offline-license",
+    "description": "",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "nddcoder",
+        "php-offline-license"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/nddcoder/php-offline-license",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "name": "Dung Nguyen Dang",
+            "email": "dangdungcntt@gmail.com",
             "role": "Developer"
         }
     ],
@@ -23,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Nddcoder\\PhpOfflineLicense\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Nddcoder\\PhpOfflineLicense\\Tests\\": "tests"
         }
     },
     "scripts": {
